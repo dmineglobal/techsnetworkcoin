@@ -1,11 +1,10 @@
-Litecoin Core
+TechsNetworkcoin Core
 =============
 
 Setup
 ---------------------
-Litecoin Core is the original Litecoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Litecoin transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+TechsNetworkcoin Core is the original TechsNetworkcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of TechsNetworkcoin transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Litecoin Core, visit [litecoin.org](https://litecoin.org/).
 
 Running
 ---------------------
