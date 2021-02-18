@@ -9,9 +9,9 @@
 #include <stdint.h>
 
 /** Amount in satoshis (Can be negative) */
-typedef uint64_t CAmount;
+typedef int64_t CAmount;
 
-static const CAmount COIN = 100000000;
+static const CAmount COIN = 84000000;
 
 /** No amount larger than this (in satoshi) is valid.
  *
@@ -23,6 +23,9 @@ static const CAmount COIN = 100000000;
  * for the creation of coins out of thin air modification could lead to a fork.
  * */
 static const CAmount MAX_MONEY = 100000000000 * COIN;
-inline bool MoneyRange(const CAmount& nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
+inline bool MoneyRange(const CAmount& nValue)
+{ 
+	return (nValue >= 0 && nValue <= MAX_MONEY);
+}
 
 #endif //  BITCOIN_AMOUNT_H
